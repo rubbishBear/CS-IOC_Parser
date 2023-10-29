@@ -1,0 +1,5 @@
+Log file
+IOCs from different CTI platforms
+Create the folders for incremental pulls, move file into the new folder
+Seed the prod csv's
+Rename file option
