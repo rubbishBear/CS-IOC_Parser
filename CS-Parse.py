@@ -77,7 +77,7 @@ ddf.to_csv(path.splitext(ingestCSV)[0] + '_prod.csv', single_file = True, encodi
 
 # Seperating out the different IOC types into their own CSV and appending to the production CSV for that IOC type
 availableTypes = ddf['Type'].unique()
-ddf = ddf.set_index('Type')
+ddf = ddf.set_index('Type',sorted=True)
 for iType in availableTypes:
     if iType in typeDict:
         iTypeCSVBaseName = baseFileName + '_' + typeDict[iType] + '_production_updated_' + datetime.now().strftime("%Y%m%d") + '.csv' 
