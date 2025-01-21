@@ -95,7 +95,7 @@ Script completed in: 0:04:45
 Upon execution, the script will parse out all the IOCs based on IOC type and create a seperate CSV based on its type. The script will also append the new IOCs to the production lists and dedup any IOCs. The next step is to upload the production CSV to whichever server (Splunk, SO, or both if desired).
 
 ## Features coming soon
-- Log file for tracking updates to your production CSV. 
+- Log file (Date/Time/Results) for tracking updates to your production CSV. 
 - Ability to parse IOCs from different CTI platforms
 - Create the folders for incremental pulls, move file into the new folder
 - Creating and seeding the prod csv's
